@@ -1,0 +1,3 @@
+# Off-by-One Error in Java Array Iteration
+
+This repository demonstrates a common off-by-one error in Java when iterating through an array. The error arises from incorrectly using the `<=` operator in the for loop condition, leading to an `ArrayIndexOutOfBoundsException`. The solution shows the corrected code with `i < arr.length`. This is a fundamental error that can lead to unexpected crashes in larger programs.
